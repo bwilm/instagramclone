@@ -7,9 +7,15 @@
 }
 
 .app_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
+  top: 0;
+  z-index: 1;
+  position: sticky;
 }
 
 .app_header_image{
@@ -17,3 +23,25 @@
   max-height: 100px;
   width: 150px;
 }
+
+.app_signup>center{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+center>Input{
+  padding: 20px;
+}
+
+.app_posts{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.app_posts_left{
+
+}
+.app_posts_right{
+margin-left: 30px;
+}
+

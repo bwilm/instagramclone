@@ -1,7 +1,7 @@
 import firebase from "firebase";
 
 
-const firebaseapp =  firebase.initializeApp({
+const firebaseApp =  firebase.initializeApp({
 
     apiKey: "AIzaSyDtXJj_Dh4sDvAjqIFbN0t4nxWLFnpgV9U",
     authDomain: "instagram-clone-b7499.firebaseapp.com",
@@ -15,7 +15,7 @@ const firebaseapp =  firebase.initializeApp({
 });
 
 
-  const db = firebaseapp.firestore();
+  const db = firebaseApp.firestore();
   const auth = firebase.auth();
   const storage = firebase.storage();
 

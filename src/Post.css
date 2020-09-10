@@ -19,6 +19,8 @@
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid transparent;
+    box-shadow:6px 6px 6px -5px #ccc;
 }
 
 .post_header{
@@ -31,4 +33,31 @@
 
 .post_avatar{
     margin-right: 10px;
+}
+
+.post_commentBox{
+    margin-top: 10px;
+
+}
+form>input.post_input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.post_button{
+    border:none;
+    border-top: 1px solid lightgray;
+    flex: 0;
+    color: #6082a3;
+}
+
+form.post_form{
+    display: flex;
+}
+
+.post_comments{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
