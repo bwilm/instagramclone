@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Upload functionality,
+Comment Functionality
+Firebase User Auth
+Firestore db
+
+
+![alt text](https://i.ibb.co/vkMSK4d/Screen-Shot-2020-09-12-at-2-43-35-AM.png)
+
+![alt text](https://i.ibb.co/0X7vjFt/Screen-Shot-2020-09-12-at-2-43-44-AM.png)
+
+![alt text](https://i.ibb.co/x5DgQrt/Screen-Shot-2020-09-12-at-2-44-13-AM.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
